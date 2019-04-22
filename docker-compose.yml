@@ -1,0 +1,9 @@
+version: '2.3'
+
+services:
+  angular:
+    hostname: localhost
+    container_name: angular-docker-marx-container
+    build: .
+    ports:
+      - 80:80
